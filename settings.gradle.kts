@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RouteProjects"
+rootProject.name = "meow"
+include(":app")
 include(":app")
  
