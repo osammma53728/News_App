@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_video_call"
+  android:layout_width="match_parent"
+  android:layout_height="926dp"
+  android:background="@drawable/container_video_call">
+  
+  <ImageView
+    android:id="@+id/image_video_call"
+    android:layout_width="1445dp"
+    android:layout_height="984dp"
+    android:layout_marginLeft="-519dp"
+    android:layout_marginTop="45dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_video_call" />
+  
+  <ImageView
+    android:id="@+id/img_status_bar_light"
+    android:layout_width="428dp"
+    android:layout_height="45dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/img_status_bar_light" />
+  
+  <FrameLayout
+    android:id="@+id/container_wrapper"
+    android:layout_width="327dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="-375dp"
+    android:layout_marginTop="-1037dp"
+    android:layout_gravity="top|left">
+    
+    <TextView
+      android:id="@+id/text_chats"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginRight="32dp"
+      android:layout_gravity="center_horizontal"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Chats"
+      android:textColor="#FF0F1828"
+      android:textSize="18dp" />
+    
+    <FrameLayout
+      android:id="@+id/container_icon_group"
+      android:layout_width="56dp"
+      android:layout_height="24dp"
+      android:layout_marginLeft="271dp"
+      android:layout_marginTop="3dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_icon" />
+      
+      <ImageView
+        android:id="@+id/image_notifications_none"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="32dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_notifications_none" />
+    </FrameLayout>
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="180dp"
+    android:layout_height="187dp"
+    android:layout_marginLeft="-3dp"
+    android:layout_marginTop="45dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle_purple" />
+  
+  <FrameLayout
+    android:id="@+id/container_group"
+    android:layout_width="84dp"
+    android:layout_height="36dp"
+    android:layout_marginLeft="172dp"
+    android:layout_marginTop="693dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/image_ellipse"
+      android:layout_width="15dp"
+      android:layout_height="15dp"
+      android:layout_marginTop="11dp"
+      android:layout_marginBottom="10dp"
+      android:layout_gravity="left"
+      android:background="@drawable/image_ellipse_circle_green"
+      android:scaleType="centerInside" />
+    
+    <TextView
+      android:id="@+id/text_time"
+      android:layout_width="match_parent"
+      android:layout_height="36dp"
+      android:layout_marginLeft="18dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="15:00"
+      android:textColor="#FFFFFFFF"
+      android:textSize="24dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/image_group"
+    android:layout_width="217.26dp"
+    android:layout_height="69dp"
+    android:layout_marginLeft="105dp"
+    android:layout_marginBottom="128dp"
+    android:layout_gravity="bottom|left">
+    
+    <ImageView
+      android:layout_width="61.75dp"
+      android:layout_height="match_parent"
+      android:layout_marginRight="0dp"
+      android:layout_gravity="right"
+      android:scaleType="centerCrop"
+      android:src="@drawable/drawable_image" />
+    
+    <FrameLayout
+      android:layout_width="61.75dp"
+      android:layout_height="match_parent"
+      android:layout_marginRight="77.75dp"
+      android:layout_gravity="right">
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape"
+          android:scaleType="centerCrop" />
+      </FrameLayout>
+      
+      <ImageView
+        android:layout_width="23dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="20.25dp"
+        android:layout_marginRight="18.5dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="21dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_phone" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:layout_width="61.75dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="left">
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/drawable_shape_1"
+          android:scaleType="centerCrop" />
+      </FrameLayout>
+      
+      <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="20.75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="19dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_2" />
+    </FrameLayout>
+  </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_questions"
+  android:layout_width="match_parent"
+  android:layout_height="926dp"
+    tools:context=".ui_and_register.QuestionsActivity"
+  android:background="@drawable/container_questions"
+  android:gravity="left|top"
+  android:orientation="vertical">
+  
+  <ImageView
+    android:id="@+id/iv_status_bar_light"
+    android:layout_width="428dp"
+    android:layout_height="45dp"
+    android:layout_gravity="left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_status_bar_light" />
+  
+  <ImageView
+    android:id="@+id/container_group"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginRight="377dp"
+    android:layout_marginTop="11dp"
+    android:layout_gravity="right"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_group" />
+  
+  <FrameLayout
+    android:id="@+id/container_group1"
+    android:layout_width="200dp"
+    android:layout_height="54dp"
+    android:layout_marginLeft="114dp"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="left"
+    android:background="@drawable/container_group1">
+    
+    <FrameLayout
+      android:id="@+id/image_group"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="2dp"
+      android:layout_marginBottom="2dp"
+      android:background="@drawable/image_group">
+      
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shape"
+        android:scaleType="centerCrop" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/container_group2"
+      android:layout_width="wrap_content"
+      android:layout_height="54dp"
+      android:layout_marginLeft="25dp"
+      android:layout_gravity="left"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="submit"
+      android:textColor="#FFFFFFFF"
+      android:textSize="36dp" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="152dp"
+    android:layout_height="7dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="73dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/image_rectangle_purple"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_question1"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="44dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Question 1"
+    android:textColor="#FF6E6AB4"
+    android:textSize="24dp" />
+  
+  <TextView
+    android:id="@+id/text_how_can_i_help"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="12.5dp"
+    android:layout_marginBottom="-1.5dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="كيف استيطع مساعدتك؟"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle1"
+    android:layout_width="402dp"
+    android:layout_height="53dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:background="@drawable/image_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_question2"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Question 2"
+    android:textColor="#FF6E6AB4"
+    android:textSize="24dp" />
+  
+  <TextView
+    android:id="@+id/text_when_did_you_start_feeling"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="12.5dp"
+    android:layout_marginBottom="-1.5dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="متي بدات تشعر بهذه الحاله النفسيه؟  "
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle2"
+    android:layout_width="402dp"
+    android:layout_height="53dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:background="@drawable/image_rectangle2"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_question3"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Question 3"
+    android:textColor="#FF6E6AB4"
+    android:textSize="24dp" />
+  
+  <TextView
+    android:id="@+id/text_have_you_ever_thought"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="12.5dp"
+    android:layout_marginBottom="-1.5dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="هل فكرت بايذاء نفسك يوما ما؟"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle3"
+    android:layout_width="402dp"
+    android:layout_height="53dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:background="@drawable/image_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_question4"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Question 4"
+    android:textColor="#FF6E6AB4"
+    android:textSize="24dp" />
+  
+  <TextView
+    android:id="@+id/text_what_are_your_life_circumstances"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="12.5dp"
+    android:layout_marginBottom="-1.5dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="ماهي ظروف حياتك وماذا تعمل في روتينك؟"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle4"
+    android:layout_width="402dp"
+    android:layout_height="53dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:background="@drawable/image_rectangle4"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_question5"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Question 5"
+    android:textColor="#FF6E6AB4"
+    android:textSize="24dp" />
+  
+  <TextView
+    android:id="@+id/text_are_you_afraid_of_closed_spaces"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="12.5dp"
+    android:layout_marginBottom="-1.5dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="هل تخاف من الاماكن المغلقه؟"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle5"
+    android:layout_width="402dp"
+    android:layout_height="53dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="14dp"
+    android:background="@drawable/image_rectangle5"
+    android:scaleType="centerInside" />
+</LinearLayout>

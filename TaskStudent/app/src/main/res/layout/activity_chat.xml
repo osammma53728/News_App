@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_shape">
+
+    <ImageView
+        android:id="@+id/container_status_bar_light"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_status_bar_light" />
+
+    <FrameLayout
+        android:layout_width="327dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-375dp"
+        android:layout_marginTop="-1037dp"
+        android:layout_gravity="top|left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="32dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Chats"
+            android:textColor="#FF0F1828"
+            android:textSize="18dp" />
+
+        <FrameLayout
+            android:layout_width="56dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="271dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="top|left">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="top|left"
+                android:scaleType="centerInside"
+                android:src="@drawable/drawable_image" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="32dp"
+                android:layout_gravity="top|left"
+                android:scaleType="centerInside"
+                android:src="@drawable/drawable_image_phone" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="7dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="911.5dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_2" />
+
+    <ImageView
+        android:id="@+id/container_group"
+        android:layout_width="33dp"
+        android:layout_height="36.22dp"
+        android:layout_marginRight="382dp"
+        android:layout_marginTop="62dp"
+        android:layout_gravity="top|right"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_group" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/videoCall"-->
+<!--        android:layout_width="19.23dp"-->
+<!--        android:layout_height="21.09dp"-->
+<!--        android:layout_marginLeft="150.61dp"-->
+<!--        android:layout_marginBottom="382.8dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:src="@drawable/drawable_image_3"-->
+<!--        app:tint="@color/black" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="36.17dp"-->
+<!--        android:layout_height="39.68dp"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        android:layout_marginTop="650dp"-->
+<!--        android:layout_gravity="top|left"-->
+<!--        android:background="@drawable/drawable_shape_3"-->
+<!--        android:scaleType="centerInside" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="35.96dp"-->
+<!--        android:layout_height="39.46dp"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        android:layout_marginTop="600dp"-->
+<!--        android:layout_gravity="top|left"-->
+<!--        android:background="@drawable/drawable_shape_4"-->
+<!--        android:scaleType="centerInside" />-->
+
+    <ImageView
+        android:id="@+id/voiceCall"
+        android:layout_width="19.23dp"
+        android:layout_height="21.09dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="838dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_1" />
+
+    <ImageView
+        android:id="@+id/videoCall"
+        android:layout_width="19.23dp"
+        android:layout_height="21.09dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginBottom="838dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_3" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="650dp"
+        android:layout_gravity="top|left"
+        android:hint="write here"
+        android:background="@drawable/drawable_shape_5"
+        android:scaleType="centerInside" />
+
+    <FrameLayout
+        android:id="@+id/container_group3"
+        android:visibility="gone"
+        android:layout_width="224dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="128dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/container_group3">
+
+        <ImageView
+            android:id="@+id/image_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="جاهز للسيشن ؟"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group6"
+        android:visibility="gone"
+        android:layout_width="224dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/container_group6">
+
+        <ImageView
+            android:id="@+id/image_rectangle3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle7"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="تمام جاهز"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="428dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="109dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_5" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="381dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginBottom="68dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_6" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginBottom="68dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_7" />
+
+    <ImageView
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="655dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="50dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/drawable_shape_4"
+        android:src="@drawable/baseline_send_and_archive_24"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:layout_width="16.86dp"
+        android:layout_height="25.29dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="19.03dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginBottom="111.63dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/drawable_shape_4"
+        android:src="@drawable/drawable_image_9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginRight="94dp"
+        android:layout_marginTop="69dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Dr. Messi"
+        android:textColor="#FF000000"
+        android:textSize="24dp" />
+</FrameLayout>
+</LinearLayout>

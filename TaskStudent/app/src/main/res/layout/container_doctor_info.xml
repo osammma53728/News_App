@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_doctor_info"
+    tools:context=".ui_and_register.InfoDoctorActivity"
+  android:layout_width="match_parent"
+  android:layout_height="926dp"
+  android:background="@drawable/container_doctor_info">
+  
+  <ImageView
+    android:id="@+id/iv_status_bar_light"
+    android:layout_width="428dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="-5dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_status_bar_light" />
+  
+  <TextView
+    android:id="@+id/text_doctor_name"
+    android:layout_width="wrap_content"
+    android:layout_height="42dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="129dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Dr. Adham osama"
+    android:textColor="#FF000000"
+    android:textSize="32dp" />
+  
+  <ImageView
+    android:id="@+id/image_ellipse"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="117dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_ellipse_circle_green" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle11"
+    android:layout_width="152dp"
+    android:layout_height="7dp"
+    android:layout_marginTop="902dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/image_rectangle11"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_therapist_info"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="152dp"
+    android:layout_marginTop="175dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="18.4dp"
+    android:text="Psychological \nand spiritual therapist"
+    android:textColor="#FF968F8F"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle2"
+    android:layout_width="392dp"
+    android:layout_height="141dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="438dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/image_rectangle2"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_career_description"
+    android:layout_width="330dp"
+    android:layout_height="101.41dp"
+    android:layout_marginLeft="33dp"
+    android:layout_marginTop="451.8dp"
+    android:layout_marginBottom="-1.2dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.800000011920929"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="21dp"
+    android:text="A career as a doctor is a clinical professional that involves providing services in healthcare facilities. Individuals in the doctor&#39;s career path are responsible for diagnosing, examining, and identifying diseases, disorders, and illnesses of patients."
+    android:textColor="#FF333333"
+    android:textSize="14dp" />
+  
+  <TextView
+    android:id="@+id/text_about_doctor"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="14dp"
+    android:layout_marginTop="384.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="about doctor"
+    android:textColor="#FF111111"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/container_frame"
+    android:layout_width="294dp"
+    android:layout_height="38dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="454dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_reviews"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="631.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="reviews"
+    android:textColor="#FF111111"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/container_group"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginRight="382dp"
+    android:layout_marginBottom="839dp"
+    android:layout_gravity="bottom|right"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_group" />
+  
+  <FrameLayout
+    android:id="@+id/container_group2"
+    android:layout_width="159dp"
+    android:layout_height="55dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="279dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/image_rectangle1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/image_rectangle1"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_chat"
+      android:layout_width="wrap_content"
+      android:layout_height="25dp"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="15dp"
+      android:layout_marginBottom="15dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Chat"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+    
+    <ImageView
+      android:id="@+id/container_frame1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="80dp"
+      android:layout_marginRight="9dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="7dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/container_frame1" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_group1"
+    android:layout_width="221dp"
+    android:layout_height="55dp"
+    android:layout_marginLeft="191dp"
+    android:layout_marginTop="279dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_group1">
+    
+    <ImageView
+      android:id="@+id/image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/image_rectangle"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_cancel_reservation"
+      android:layout_width="match_parent"
+      android:layout_height="25dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="7dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginBottom="14dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="cancel reservation!"
+      android:textColor="#FF000000"
+      android:textSize="20dp" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/text_rating_value"
+    android:layout_width="wrap_content"
+    android:layout_height="14dp"
+    android:layout_marginLeft="372.29dp"
+    android:layout_marginTop="192.93dp"
+    android:layout_marginBottom="-3.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="4.5"
+    android:textColor="#FF333333"
+    android:textSize="10.29dp" />
+  
+  <TextView
+    android:id="@+id/text_rating"
+    android:layout_width="wrap_content"
+    android:layout_height="10dp"
+    android:layout_marginLeft="368dp"
+    android:layout_marginTop="203.36dp"
+    android:layout_marginBottom="-2.5dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.4000000059604645"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="rating"
+    android:textColor="#FF000000"
+    android:textSize="6.86dp" />
+  
+  <ImageView
+    android:id="@+id/image_star"
+    android:layout_width="17.14dp"
+    android:layout_height="17.14dp"
+    android:layout_marginLeft="371.43dp"
+    android:layout_marginTop="175dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_star" />
+  
+  <LinearLayout
+    android:id="@+id/container_frame2"
+    android:layout_width="428dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="690dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:orientation="horizontal">
+    
+    <FrameLayout
+      android:id="@+id/container_group3"
+      android:layout_width="208.03dp"
+      android:layout_height="130dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/image_rectangle3"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_description"
+        android:layout_width="188.27dp"
+        android:layout_height="46.72dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginRight="4.16dp"
+        android:layout_marginTop="70.39dp"
+        android:layout_marginBottom="12.89dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="15dp"
+        android:text="responsible for diagnosing, examining, diseases, disorders, and illnesses of patients."
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group4"
+        android:layout_width="61.21dp"
+        android:layout_height="11.25dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="42.5dp"
+        android:layout_gravity="top|left">
+        
+        <ImageView
+          android:id="@+id/image_star1"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star1" />
+        
+        <ImageView
+          android:id="@+id/image_star2"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="12.96dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star2" />
+        
+        <ImageView
+          android:id="@+id/image_star3"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="25.92dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star3" />
+        
+        <ImageView
+          android:id="@+id/image_star4"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="38.89dp"
+          android:layout_marginRight="12.96dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star4" />
+        
+        <ImageView
+          android:id="@+id/image_star5"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="51.85dp"
+          android:layout_marginRight="0dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star5" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_ellipse1"
+        android:layout_width="36.41dp"
+        android:layout_height="43.75dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginTop="13.75dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_ellipse1" />
+      
+      <TextView
+        android:id="@+id/text_name"
+        android:layout_width="39.53dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="22.13dp"
+        android:layout_marginBottom="-2.88dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="omar"
+        android:textColor="#FF000000"
+        android:textSize="13dp" />
+      
+      <TextView
+        android:id="@+id/text_date"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="131.06dp"
+        android:layout_marginRight="27.04dp"
+        android:layout_marginTop="17.38dp"
+        android:layout_marginBottom="-2.63dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="13/2/2024"
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group5"
+      android:layout_width="208.03dp"
+      android:layout_height="130dp"
+      android:layout_marginLeft="15dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/image_rectangle4"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_description1"
+        android:layout_width="188.27dp"
+        android:layout_height="46.72dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginRight="4.16dp"
+        android:layout_marginTop="70.39dp"
+        android:layout_marginBottom="12.89dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="15dp"
+        android:text="responsible for diagnosing, examining, diseases, disorders, and illnesses of patients."
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group6"
+        android:layout_width="61.21dp"
+        android:layout_height="11.25dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="42.5dp"
+        android:layout_gravity="top|left">
+        
+        <ImageView
+          android:id="@+id/image_star6"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star6" />
+        
+        <ImageView
+          android:id="@+id/image_star7"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="12.96dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star7" />
+        
+        <ImageView
+          android:id="@+id/image_star8"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="25.92dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star8" />
+        
+        <ImageView
+          android:id="@+id/image_star9"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="38.89dp"
+          android:layout_marginRight="12.96dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star9" />
+        
+        <ImageView
+          android:id="@+id/image_star10"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="51.85dp"
+          android:layout_marginRight="0dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star10" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_ellipse2"
+        android:layout_width="36.41dp"
+        android:layout_height="43.75dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginTop="13.75dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_ellipse2_circle" />
+      
+      <TextView
+        android:id="@+id/text_name1"
+        android:layout_width="39.53dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="22.13dp"
+        android:layout_marginBottom="-2.88dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Messi"
+        android:textColor="#FF000000"
+        android:textSize="13dp" />
+      
+      <TextView
+        android:id="@+id/text_date1"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="131.06dp"
+        android:layout_marginRight="27.04dp"
+        android:layout_marginTop="17.38dp"
+        android:layout_marginBottom="-2.63dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="13/2/2024"
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group7"
+      android:layout_width="208.03dp"
+      android:layout_height="130dp"
+      android:layout_marginLeft="15dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/image_rectangle5"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_description2"
+        android:layout_width="188.27dp"
+        android:layout_height="46.72dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginRight="4.16dp"
+        android:layout_marginTop="70.39dp"
+        android:layout_marginBottom="12.89dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="15dp"
+        android:text="responsible for diagnosing, examining, diseases, disorders, and illnesses of patients."
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group8"
+        android:layout_width="61.21dp"
+        android:layout_height="11.25dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="42.5dp"
+        android:layout_gravity="top|left">
+        
+        <ImageView
+          android:id="@+id/image_star11"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star11" />
+        
+        <ImageView
+          android:id="@+id/image_star12"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="12.96dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star12" />
+        
+        <ImageView
+          android:id="@+id/image_star13"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="25.92dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star13" />
+        
+        <ImageView
+          android:id="@+id/image_star14"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="38.89dp"
+          android:layout_marginRight="12.96dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star14" />
+        
+        <ImageView
+          android:id="@+id/image_star15"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="51.85dp"
+          android:layout_marginRight="0dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star15" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_ellipse3"
+        android:layout_width="36.41dp"
+        android:layout_height="43.75dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginTop="13.75dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_ellipse3" />
+      
+      <TextView
+        android:id="@+id/text_name2"
+        android:layout_width="39.53dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="22.13dp"
+        android:layout_marginBottom="-2.88dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="omar"
+        android:textColor="#FF000000"
+        android:textSize="13dp" />
+      
+      <TextView
+        android:id="@+id/text_date2"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="131.06dp"
+        android:layout_marginRight="27.04dp"
+        android:layout_marginTop="17.38dp"
+        android:layout_marginBottom="-2.63dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="13/2/2024"
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group9"
+      android:layout_width="208.03dp"
+      android:layout_height="130dp"
+      android:layout_marginLeft="15dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/image_rectangle6_white"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_description3"
+        android:layout_width="188.27dp"
+        android:layout_height="46.72dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginRight="4.16dp"
+        android:layout_marginTop="70.39dp"
+        android:layout_marginBottom="12.89dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="15dp"
+        android:text="responsible for diagnosing, examining, diseases, disorders, and illnesses of patients."
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group10"
+        android:layout_width="61.21dp"
+        android:layout_height="11.25dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="42.5dp"
+        android:layout_gravity="top|left">
+        
+        <ImageView
+          android:id="@+id/image_star16"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star16" />
+        
+        <ImageView
+          android:id="@+id/image_star17"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="12.96dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star17" />
+        
+        <ImageView
+          android:id="@+id/image_star18"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="25.92dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star18" />
+        
+        <ImageView
+          android:id="@+id/image_star19"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="38.89dp"
+          android:layout_marginRight="12.96dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star19" />
+        
+        <ImageView
+          android:id="@+id/image_star20"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="51.85dp"
+          android:layout_marginRight="0dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star20" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_ellipse4"
+        android:layout_width="36.41dp"
+        android:layout_height="43.75dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginTop="13.75dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_ellipse4" />
+      
+      <TextView
+        android:id="@+id/text_name3"
+        android:layout_width="39.53dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="22.13dp"
+        android:layout_marginBottom="-2.88dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="omar"
+        android:textColor="#FF000000"
+        android:textSize="13dp" />
+      
+      <TextView
+        android:id="@+id/text_date3"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="131.06dp"
+        android:layout_marginRight="27.04dp"
+        android:layout_marginTop="17.38dp"
+        android:layout_marginBottom="-2.63dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="13/2/2024"
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group11"
+      android:layout_width="208.03dp"
+      android:layout_height="130dp"
+      android:layout_marginLeft="15dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/image_rectangle7"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_description4"
+        android:layout_width="188.27dp"
+        android:layout_height="46.72dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginRight="4.16dp"
+        android:layout_marginTop="70.39dp"
+        android:layout_marginBottom="12.89dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="15dp"
+        android:text="responsible for diagnosing, examining, diseases, disorders, and illnesses of patients."
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group12"
+        android:layout_width="61.21dp"
+        android:layout_height="11.25dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="42.5dp"
+        android:layout_gravity="top|left">
+        
+        <ImageView
+          android:id="@+id/image_star21"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star21" />
+        
+        <ImageView
+          android:id="@+id/image_star22"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="12.96dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star22" />
+        
+        <ImageView
+          android:id="@+id/image_star23"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="25.92dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star23" />
+        
+        <ImageView
+          android:id="@+id/image_star24"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="38.89dp"
+          android:layout_marginRight="12.96dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star24" />
+        
+        <ImageView
+          android:id="@+id/image_star25"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="51.85dp"
+          android:layout_marginRight="0dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star25" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_ellipse5"
+        android:layout_width="36.41dp"
+        android:layout_height="43.75dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginTop="13.75dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_ellipse5" />
+      
+      <TextView
+        android:id="@+id/text_name4"
+        android:layout_width="39.53dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="22.13dp"
+        android:layout_marginBottom="-2.88dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Messi"
+        android:textColor="#FF000000"
+        android:textSize="13dp" />
+      
+      <TextView
+        android:id="@+id/text_date4"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="131.06dp"
+        android:layout_marginRight="27.04dp"
+        android:layout_marginTop="17.38dp"
+        android:layout_marginBottom="-2.63dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="13/2/2024"
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group13"
+      android:layout_width="208.03dp"
+      android:layout_height="130dp"
+      android:layout_marginLeft="15dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/image_rectangle8"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_description5"
+        android:layout_width="188.27dp"
+        android:layout_height="46.72dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginRight="4.16dp"
+        android:layout_marginTop="70.39dp"
+        android:layout_marginBottom="12.89dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="15dp"
+        android:text="responsible for diagnosing, examining, diseases, disorders, and illnesses of patients."
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group14"
+        android:layout_width="61.21dp"
+        android:layout_height="11.25dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="42.5dp"
+        android:layout_gravity="top|left">
+        
+        <ImageView
+          android:id="@+id/image_star26"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star26" />
+        
+        <ImageView
+          android:id="@+id/image_star27"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="12.96dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star27" />
+        
+        <ImageView
+          android:id="@+id/image_star28"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="25.92dp"
+          android:layout_gravity="left"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star28" />
+        
+        <ImageView
+          android:id="@+id/image_star29"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="38.89dp"
+          android:layout_marginRight="12.96dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star29" />
+        
+        <ImageView
+          android:id="@+id/image_star30"
+          android:layout_width="9.36dp"
+          android:layout_height="11.25dp"
+          android:layout_marginLeft="51.85dp"
+          android:layout_marginRight="0dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_star30" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_ellipse6"
+        android:layout_width="36.41dp"
+        android:layout_height="43.75dp"
+        android:layout_marginLeft="15.6dp"
+        android:layout_marginTop="13.75dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_ellipse6" />
+      
+      <TextView
+        android:id="@+id/text_name5"
+        android:layout_width="39.53dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="60.33dp"
+        android:layout_marginTop="22.13dp"
+        android:layout_marginBottom="-2.88dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="omar"
+        android:textColor="#FF000000"
+        android:textSize="13dp" />
+      
+      <TextView
+        android:id="@+id/text_date5"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_marginLeft="131.06dp"
+        android:layout_marginRight="27.04dp"
+        android:layout_marginTop="17.38dp"
+        android:layout_marginBottom="-2.63dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="13/2/2024"
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+    </FrameLayout>
+  </LinearLayout>
+</FrameLayout>

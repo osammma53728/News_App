@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="926dp"
+    tools:context=".ui_and_register.MoreProfileDoctorActivity"
+    android:background="@drawable/drawable_shape">
+
+    <ImageView
+        android:id="@+id/container_status_bar_light"
+        android:layout_width="428dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_status_bar_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="133dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Dr. Adham osama"
+        android:textColor="#FF000000"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="117dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_ellipse_circle_green" />
+
+    <FrameLayout
+        android:id="@+id/container_group"
+        android:layout_width="335dp"
+        android:layout_height="66dp"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginTop="808dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/container_group">
+
+        <ImageView
+            android:id="@+id/image_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle_purple"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_book_appointment"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginRight="10.5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Book an appointment"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="902dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/drawable_shape_1"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="179dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="24dp"
+        android:text="Psychological \nand spiritual therapist"
+        android:textColor="#FF968F8F"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="392dp"
+        android:layout_height="141dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="438dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/drawable_shape_2"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="402dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Experience"
+        android:textColor="#FF111111"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:id="@+id/container_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="454dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container_frame1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_frame"
+                android:layout_width="21dp"
+                android:layout_height="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_frame" />
+
+            <TextView
+                android:id="@+id/text_frame"
+                android:layout_width="297dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="24dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and \n\n\n"
+                android:textColor="#FF7C7575"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_frame2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:clipToPadding="false"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_frame1"
+                android:layout_width="21dp"
+                android:layout_height="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_frame1" />
+
+            <TextView
+                android:id="@+id/text_frame1"
+                android:layout_width="307dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="24dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and \n\n\n"
+                android:textColor="#FF7C7575"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="392dp"
+        android:layout_height="141dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="639dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/drawable_shape_3"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="603dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Education"
+        android:textColor="#FF111111"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:id="@+id/container_frame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="655dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container_frame4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_frame2"
+                android:layout_width="21dp"
+                android:layout_height="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_frame2" />
+
+            <TextView
+                android:id="@+id/text_frame2"
+                android:layout_width="283dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="24dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and \n\n\n"
+                android:textColor="#FF7C7575"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_frame5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:clipToPadding="false"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_frame3"
+                android:layout_width="21dp"
+                android:layout_height="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_frame3" />
+
+            <TextView
+                android:id="@+id/text_frame3"
+                android:layout_width="283dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="24dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and \n\n\n"
+                android:textColor="#FF7C7575"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="256dp"
+        android:layout_height="176dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="235dp"
+        android:layout_gravity="top|right">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="256dp"
+                android:layout_height="176dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/drawable_shape_4"
+                android:scaleType="centerInside" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginLeft="161dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="21dp"
+            android:layout_gravity="top"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Cost"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginBottom="41dp"
+            android:layout_gravity="left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Happy "
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="21dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Sessions\n"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="15.29dp"
+            android:layout_height="15.26dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="227.71dp"
+            android:layout_marginTop="137.28dp"
+            android:layout_marginBottom="23.46dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_phone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginLeft="178dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="55dp"
+            android:layout_gravity="top"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="1000 L.E"
+            android:textColor="#FF7C7575"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="159.93dp"
+            android:layout_marginRight="81.07dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="101dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="33.69dp"
+            android:layout_marginTop="134dp"
+            android:layout_marginBottom="18dp"
+            android:layout_gravity="left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500+ rating"
+            android:textColor="#FF7C7575"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="141dp"
+            android:layout_marginRight="115dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginBottom="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/drawable_image_3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="161dp"
+            android:layout_marginRight="31dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginBottom="35dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Time"
+            android:textColor="#FFFFFFFF"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginLeft="179dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="134dp"
+            android:layout_marginBottom="18dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="30 Min"
+            android:textColor="#FF7C7575"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="15.29dp"
+            android:layout_height="15.26dp"
+            android:layout_marginLeft="161dp"
+            android:layout_marginRight="79.71dp"
+            android:layout_marginTop="139dp"
+            android:layout_marginBottom="21.74dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_4" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="55dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="500+ \n"
+            android:textColor="#FF7C7575"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="11dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="62dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_5" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="1.5dp"
+        android:layout_marginTop="508.5dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_6" />
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="1.5dp"
+        android:layout_marginTop="708.5dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_7" />
+
+    <ImageView
+        android:id="@+id/image_group"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="382dp"
+        android:layout_marginBottom="839dp"
+        android:layout_gravity="bottom|right"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_group" />
+</FrameLayout>

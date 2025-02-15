@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_payment"
+  android:layout_width="match_parent"
+  android:layout_height="926dp"
+
+  android:background="@drawable/container_payment">
+  
+  <ImageView
+    android:id="@+id/container_status_bar_light"
+    android:layout_width="428dp"
+    android:layout_height="45dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_status_bar_light" />
+  
+  <ImageView
+    android:id="@+id/img_rectangle1"
+    android:layout_width="428dp"
+    android:layout_height="753dp"
+    android:layout_marginLeft="-1dp"
+    android:layout_marginTop="173dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/img_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/txt_card_number"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginTop="299dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Card Number"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/container_group"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginRight="382dp"
+    android:layout_marginBottom="838dp"
+    android:layout_gravity="bottom|right"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_group" />
+  
+  <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="343dp"
+    android:layout_gravity="top|center_horizontal"
+    android:clipToPadding="false">
+    
+    <LinearLayout
+      android:id="@+id/container_frame1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="left|center_vertical"
+      android:orientation="horizontal">
+      
+      <ImageView
+        android:id="@+id/image_rectangle11"
+        android:layout_width="81dp"
+        android:layout_height="58dp"
+        android:background="@drawable/image_rectangle11"
+        android:scaleType="centerInside" />
+      
+      <ImageView
+        android:id="@+id/image_rectangle2"
+        android:layout_width="81dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/image_rectangle2"
+        android:scaleType="centerInside" />
+      
+      <ImageView
+        android:id="@+id/image_rectangle3"
+        android:layout_width="81dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/image_rectangle3"
+        android:scaleType="centerInside" />
+      
+      <ImageView
+        android:id="@+id/image_rectangle4"
+        android:layout_width="81dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/image_rectangle4"
+        android:scaleType="centerInside" />
+    </LinearLayout>
+    
+    <TextView
+      android:id="@+id/text_placeholder1"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="18dp"
+      android:layout_marginTop="19dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="****"
+      android:textColor="#FF000000"
+      android:textSize="24dp" />
+    
+    <TextView
+      android:id="@+id/text_placeholder2"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="115dp"
+      android:layout_marginTop="19dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="****"
+      android:textColor="#FF000000"
+      android:textSize="24dp" />
+    
+    <TextView
+      android:id="@+id/text_placeholder3"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="212dp"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="****"
+      android:textColor="#FF000000"
+      android:textSize="24dp" />
+    
+    <TextView
+      android:id="@+id/text_placeholder4"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginLeft="309dp"
+      android:layout_marginTop="22dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="****"
+      android:textColor="#FF000000"
+      android:textSize="24dp" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/txt_c_v_v"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="275dp"
+    android:layout_marginTop="414dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="CVV"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/img_rectangle2"
+    android:layout_width="152dp"
+    android:layout_height="7dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="909dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/img_rectangle2"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/img_rectangle3"
+    android:layout_width="137dp"
+    android:layout_height="7dp"
+    android:layout_marginRight="115.5dp"
+    android:layout_marginTop="254dp"
+    android:layout_gravity="top|center_horizontal"
+    android:alpha="0.5"
+    android:background="@drawable/img_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <FrameLayout
+    android:id="@+id/container_group2"
+    android:layout_width="354dp"
+    android:layout_height="66dp"
+    android:layout_marginBottom="79dp"
+    android:layout_gravity="bottom|center_horizontal"
+    android:background="@drawable/container_group2">
+    
+    <ImageView
+      android:id="@+id/image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/image_rectangle_purple"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_process_payment"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      android:layout_marginRight="11.5dp"
+      android:layout_marginTop="9dp"
+      android:layout_marginBottom="9dp"
+      android:layout_gravity="center_horizontal"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Process payment"
+      android:textColor="#FFFFFFFF"
+      android:textSize="32dp" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/txt_payment"
+    android:layout_width="wrap_content"
+    android:layout_height="54dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="99dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="payment"
+    android:textColor="#FF7C7575"
+    android:textSize="36dp" />
+  
+  <ImageView
+    android:id="@+id/container_group1"
+    android:layout_width="115dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="41dp"
+    android:layout_marginTop="212dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_group1" />
+  
+  <TextView
+    android:id="@+id/txt_expiry_date"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:layout_marginLeft="23dp"
+    android:layout_marginTop="414dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Expiry Date"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_group3"
+    android:layout_width="333dp"
+    android:layout_height="58dp"
+    android:layout_marginLeft="23dp"
+    android:layout_marginTop="456dp"
+    android:layout_gravity="top|left">
+    
+    <FrameLayout
+      android:id="@+id/container_group4"
+      android:layout_width="167dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="left"
+      android:background="@drawable/container_group4">
+      
+      <ImageView
+        android:id="@+id/image_rectangle1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_rectangle1"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_month"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Month"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/image_group"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="257dp"
+      android:layout_marginTop="22dp"
+      android:layout_marginBottom="22dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/image_group" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/container_line"
+    android:layout_width="3dp"
+    android:layout_height="96dp"
+    android:layout_marginTop="194dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line" />
+  
+  <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="237dp"
+    android:layout_marginTop="207dp"
+    android:layout_gravity="top|left">
+    
+    <LinearLayout
+      android:id="@+id/container_frame"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:clipToPadding="false"
+      android:gravity="left|center_vertical"
+      android:orientation="horizontal">
+      
+      <ImageView
+        android:id="@+id/image_ellipse"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/image_ellipse_circle_green"
+        android:scaleType="centerInside" />
+      
+      <ImageView
+        android:id="@+id/image_group1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_group1" />
+      
+      <TextView
+        android:id="@+id/text_vcash"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="VCash"
+        android:textColor="#FF222357"
+        android:textSize="32dp" />
+    </LinearLayout>
+    
+    <ImageView
+      android:id="@+id/image_ellipse2"
+      android:layout_width="13dp"
+      android:layout_height="13dp"
+      android:layout_marginLeft="6dp"
+      android:layout_marginTop="14dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/image_ellipse2_circle"
+      android:scaleType="centerInside" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:layout_width="405dp"
+    android:layout_height="195dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="545dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:alpha="0.5"
+      android:background="@drawable/drawable_shape"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="21dp"
+      android:layout_marginLeft="306dp"
+      android:layout_marginRight="32.73dp"
+      android:layout_marginTop="144.51dp"
+      android:layout_marginBottom="29.49dp"
+      android:alpha="0.800000011920929"
+      android:gravity="center"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="302.50"
+      android:textColor="#FF000000"
+      android:textSize="16dp" />
+    
+    <FrameLayout
+      android:layout_width="334dp"
+      android:layout_height="104dp"
+      android:layout_marginLeft="26dp"
+      android:layout_marginTop="14dp"
+      android:layout_gravity="top|left">
+      
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:gravity="left|top"
+        android:orientation="vertical">
+        
+        <TextView
+          android:layout_width="145dp"
+          android:layout_height="24dp"
+          android:alpha="0.800000011920929"
+          android:gravity="center"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="consultation fee"
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+        
+        <TextView
+          android:layout_width="142dp"
+          android:layout_height="24dp"
+          android:layout_marginTop="16dp"
+          android:alpha="0.800000011920929"
+          android:gravity="center"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="booking charge"
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+        
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="24dp"
+          android:layout_marginTop="16dp"
+          android:alpha="0.800000011920929"
+          android:gravity="center"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="hospital charge"
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+      </LinearLayout>
+      
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="278dp"
+        android:layout_marginBottom="-4dp"
+        android:layout_gravity="top"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical"
+        android:paddingBottom="4dp">
+        
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="24dp"
+          android:alpha="0.800000011920929"
+          android:gravity="center"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="300/"
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+        
+        <TextView
+          android:layout_width="50dp"
+          android:layout_height="24dp"
+          android:layout_marginTop="20dp"
+          android:alpha="0.800000011920929"
+          android:gravity="center"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="2.50"
+          android:textColor="#FF000000"
+          android:textSize="16dp" />
+        
+        <TextView
+          android:layout_width="12.27dp"
+          android:layout_height="16dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginBottom="-4dp"
+          android:alpha="0.800000011920929"
+          android:gravity="center"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="--"
+          android:textColor="#FF000000"
+          android:textSize="12dp" />
+      </LinearLayout>
+    </FrameLayout>
+    
+    <TextView
+      android:layout_width="138.68dp"
+      android:layout_height="21dp"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="144.51dp"
+      android:layout_marginBottom="29.49dp"
+      android:layout_gravity="left"
+      android:alpha="0.800000011920929"
+      android:gravity="center"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="total amount"
+      android:textColor="#FF000000"
+      android:textSize="16dp" />
+    
+    <ImageView
+      android:layout_width="368.18dp"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="18dp"
+      android:layout_marginTop="130dp"
+      android:layout_marginBottom="65dp"
+      android:layout_gravity="left"
+      android:alpha="0.20000000298023224"
+      android:scaleType="centerCrop"
+      android:src="@drawable/drawable_image" />
+  </FrameLayout>
+</FrameLayout>

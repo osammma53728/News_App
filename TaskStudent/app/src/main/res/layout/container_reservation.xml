@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_reservation"
+  android:layout_width="match_parent"
+  android:layout_height="926dp"
+  android:background="@drawable/container_reservation">
+  
+  <ImageView
+    android:id="@+id/container_status_bar_light"
+    android:layout_width="428dp"
+    android:layout_height="45dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_status_bar_light" />
+  
+  <ImageView
+    android:id="@+id/container_group"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_marginRight="382dp"
+    android:layout_marginBottom="836dp"
+    android:layout_gravity="bottom|right"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_group" />
+  
+  <TextView
+    android:id="@+id/text_therapists"
+    android:layout_width="wrap_content"
+    android:layout_height="54dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="47dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="therapists"
+    android:textColor="#FF6E6AB4"
+    android:textSize="36dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_group1"
+    android:layout_width="358dp"
+    android:layout_height="54dp"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="121dp"
+    android:layout_gravity="top|left">
+    
+    <ImageView
+      android:id="@+id/image_rectangle2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/image_rectangle2"
+      android:scaleType="centerCrop" />
+    
+    <TextView
+      android:id="@+id/text_search_therapist"
+      android:layout_width="match_parent"
+      android:layout_height="36dp"
+      android:layout_marginLeft="58dp"
+      android:layout_marginRight="56dp"
+      android:layout_marginTop="9dp"
+      android:layout_marginBottom="9dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Search a therapist"
+      android:textColor="#FF000000"
+      android:textSize="24dp" />
+    
+    <ImageView
+      android:id="@+id/image_search_icon"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="12dp"
+      android:layout_marginBottom="12dp"
+      android:layout_gravity="left"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_search_icon" />
+  </FrameLayout>
+  
+  <LinearLayout
+    android:id="@+id/container_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="731dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginTop="195dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:orientation="vertical">
+    
+    <FrameLayout
+      android:id="@+id/container_group11"
+      android:layout_width="414dp"
+      android:layout_height="187dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_rectangle11"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_psychological_therapist1"
+        android:layout_width="201dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginTop="41.5dp"
+        android:layout_marginBottom="-5.5dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:lineHeight="24dp"
+        android:maxLines="3"
+        android:text="Psychological \nand spiritual therapist"
+        android:textColor="#FF7C7575"
+        android:textSize="16dp" />
+      
+      <TextView
+        android:id="@+id/text_dr_ahmed1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="top"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Dr.Ahmed"
+        android:textColor="#FF111111"
+        android:textSize="32dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group2"
+        android:layout_width="45dp"
+        android:layout_height="19.8dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="62.2dp"
+        android:layout_gravity="bottom|right">
+        
+        <ImageView
+          android:id="@+id/image_vector1"
+          android:layout_width="15dp"
+          android:layout_height="15.4dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginTop="2dp"
+          android:layout_marginBottom="2.4dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_vector1" />
+        
+        <TextView
+          android:id="@+id/text_version1"
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginLeft="19dp"
+          android:layout_marginTop="-0.6dp"
+          android:layout_marginBottom="-0.6dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="5.1"
+          android:textColor="#FF6E6AB4"
+          android:textSize="16dp" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_rectangle21"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="31.9dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_rectangle21" />
+      
+      <ImageView
+        android:id="@+id/image_vector2"
+        android:layout_width="20dp"
+        android:layout_height="20.18dp"
+        android:layout_marginLeft="375dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="57.2dp"
+        android:layout_gravity="top"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_vector2" />
+      
+      <FrameLayout
+        android:id="@+id/container_group3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="309dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/container_group3">
+        
+        <ImageView
+          android:id="@+id/image_rectangle3"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_rectangle7"
+          android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_more1"
+            android:layout_width="57dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="More"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group4"
+        android:layout_width="145dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="left"
+        android:background="@drawable/container_group4">
+        
+        <ImageView
+          android:id="@+id/image_rectangle4"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_rectangle8"
+          android:scaleType="centerCrop" />
+        
+        <TextView
+          android:id="@+id/text_book_now1"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_marginLeft="8dp"
+          android:layout_marginRight="8dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Book now"
+          android:textColor="#FFFFFFFF"
+          android:textSize="24dp" />
+      </FrameLayout>
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group5"
+      android:layout_width="414dp"
+      android:layout_height="187dp"
+      android:layout_marginTop="20dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_rectangle11"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_psychological_therapist2"
+        android:layout_width="201dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginTop="41.5dp"
+        android:layout_marginBottom="-5.5dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:lineHeight="24dp"
+        android:maxLines="3"
+        android:text="Psychological \nand spiritual therapist"
+        android:textColor="#FF7C7575"
+        android:textSize="16dp" />
+      
+      <TextView
+        android:id="@+id/text_dr_ahmed2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="top"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Dr.Ahmed"
+        android:textColor="#FF111111"
+        android:textSize="32dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group6"
+        android:layout_width="45dp"
+        android:layout_height="19.8dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="62.2dp"
+        android:layout_gravity="bottom|right">
+        
+        <ImageView
+          android:id="@+id/image_vector3"
+          android:layout_width="15dp"
+          android:layout_height="15.4dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginTop="2dp"
+          android:layout_marginBottom="2.4dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_vector3" />
+        
+        <TextView
+          android:id="@+id/text_version2"
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginLeft="19dp"
+          android:layout_marginTop="-0.6dp"
+          android:layout_marginBottom="-0.6dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="5.1"
+          android:textColor="#FF6E6AB4"
+          android:textSize="16dp" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_rectangle6"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="31.9dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_rectangle21" />
+      
+      <ImageView
+        android:id="@+id/image_vector4"
+        android:layout_width="20dp"
+        android:layout_height="20.18dp"
+        android:layout_marginLeft="375dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="57.2dp"
+        android:layout_gravity="top"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_vector4" />
+      
+      <FrameLayout
+        android:id="@+id/container_group7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="309dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/container_group7">
+        
+        <ImageView
+          android:id="@+id/image_rectangle7"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_rectangle7"
+          android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_more2"
+            android:layout_width="63dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="More"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group8"
+        android:layout_width="145dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="left"
+        android:background="@drawable/container_group8">
+        
+        <ImageView
+          android:id="@+id/image_rectangle8"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_rectangle8"
+          android:scaleType="centerCrop" />
+        
+        <TextView
+          android:id="@+id/text_book_now2"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_marginLeft="8dp"
+          android:layout_marginRight="8dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Book now"
+          android:textColor="#FFFFFFFF"
+          android:textSize="24dp" />
+      </FrameLayout>
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group9"
+      android:layout_width="414dp"
+      android:layout_height="187dp"
+      android:layout_marginTop="20dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_rectangle9"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_psychological_therapist3"
+        android:layout_width="201dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginTop="41.5dp"
+        android:layout_marginBottom="-5.5dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:lineHeight="24dp"
+        android:maxLines="3"
+        android:text="Psychological \nand spiritual therapist"
+        android:textColor="#FF7C7575"
+        android:textSize="16dp" />
+      
+      <TextView
+        android:id="@+id/text_dr_ahmed3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="top"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Dr.Ahmed"
+        android:textColor="#FF111111"
+        android:textSize="32dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group10"
+        android:layout_width="45dp"
+        android:layout_height="19.8dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="62.2dp"
+        android:layout_gravity="bottom|right">
+        
+        <ImageView
+          android:id="@+id/image_vector5"
+          android:layout_width="15dp"
+          android:layout_height="15.4dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginTop="2dp"
+          android:layout_marginBottom="2.4dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_vector5" />
+        
+        <TextView
+          android:id="@+id/text_version3"
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginLeft="19dp"
+          android:layout_marginTop="-0.6dp"
+          android:layout_marginBottom="-0.6dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="5.1"
+          android:textColor="#FF6E6AB4"
+          android:textSize="16dp" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_rectangle10"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="31.9dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_rectangle10" />
+      
+      <ImageView
+        android:id="@+id/image_vector6"
+        android:layout_width="20dp"
+        android:layout_height="20.18dp"
+        android:layout_marginLeft="375dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="57.2dp"
+        android:layout_gravity="top"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_vector6" />
+      
+      <FrameLayout
+        android:id="@+id/container_group111"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="309dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/container_group111">
+        
+        <ImageView
+          android:id="@+id/image_rectangle111"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_rectangle111"
+          android:scaleType="centerCrop" />
+        
+        <TextView
+          android:id="@+id/text_more3"
+          android:layout_width="match_parent"
+          android:layout_height="31dp"
+          android:layout_marginLeft="17dp"
+          android:layout_marginRight="17dp"
+          android:layout_marginTop="1dp"
+          android:layout_marginBottom="1dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="More"
+          android:textColor="#FF000000"
+          android:textSize="20dp" />
+      </FrameLayout>
+      
+      <FrameLayout
+        android:id="@+id/container_group12"
+        android:layout_width="145dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="left"
+        android:background="@drawable/container_group12">
+        
+        <ImageView
+          android:id="@+id/image_rectangle12"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_rectangle12"
+          android:scaleType="centerCrop" />
+        
+        <TextView
+          android:id="@+id/text_book_now3"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_marginLeft="8dp"
+          android:layout_marginRight="8dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Book now"
+          android:textColor="#FFFFFFFF"
+          android:textSize="24dp" />
+      </FrameLayout>
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group13"
+      android:layout_width="414dp"
+      android:layout_height="187dp"
+      android:layout_marginTop="20dp">
+      
+      <ImageView
+        android:id="@+id/image_rectangle13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_rectangle13"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_psychological_therapist4"
+        android:layout_width="201dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginTop="41.5dp"
+        android:layout_marginBottom="-5.5dp"
+        android:layout_gravity="top"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:lineHeight="24dp"
+        android:maxLines="3"
+        android:text="Psychological \nand spiritual therapist"
+        android:textColor="#FF7C7575"
+        android:textSize="16dp" />
+      
+      <TextView
+        android:id="@+id/text_dr_ahmed4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="126dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="top"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Dr.Ahmed"
+        android:textColor="#FF111111"
+        android:textSize="32dp" />
+      
+      <FrameLayout
+        android:id="@+id/container_group14"
+        android:layout_width="45dp"
+        android:layout_height="19.8dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="62.2dp"
+        android:layout_gravity="bottom|right">
+        
+        <ImageView
+          android:id="@+id/image_vector7"
+          android:layout_width="15dp"
+          android:layout_height="15.4dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginTop="2dp"
+          android:layout_marginBottom="2.4dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_vector7" />
+        
+        <TextView
+          android:id="@+id/text_version4"
+          android:layout_width="match_parent"
+          android:layout_height="21dp"
+          android:layout_marginLeft="19dp"
+          android:layout_marginTop="-0.6dp"
+          android:layout_marginBottom="-0.6dp"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="5.1"
+          android:textColor="#FF6E6AB4"
+          android:textSize="16dp" />
+      </FrameLayout>
+      
+      <ImageView
+        android:id="@+id/image_rectangle14"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="31.9dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_rectangle14" />
+      
+      <ImageView
+        android:id="@+id/image_vector8"
+        android:layout_width="20dp"
+        android:layout_height="20.18dp"
+        android:layout_marginLeft="375dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="57.2dp"
+        android:layout_gravity="top"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_vector8" />
+      
+      <ImageView
+        android:id="@+id/image_rectangle15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="309dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/image_rectangle15"
+        android:scaleType="centerCrop" />
+      
+      <ImageView
+        android:id="@+id/image_rectangle16"
+        android:layout_width="145dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="left"
+        android:background="@drawable/image_rectangle16"
+        android:scaleType="centerCrop" />
+      
+      <TextView
+        android:id="@+id/text_more4"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginLeft="326dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginBottom="13dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="More"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+      
+      <TextView
+        android:id="@+id/text_book_now4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginBottom="22dp"
+        android:layout_gravity="left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Book now"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24dp" />
+    </FrameLayout>
+  </LinearLayout>
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="152dp"
+    android:layout_height="7dp"
+    android:layout_marginRight="14dp"
+    android:layout_marginTop="907dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/image_rectangle_purple"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle1"
+    android:layout_width="152dp"
+    android:layout_height="7dp"
+    android:layout_marginTop="903dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/image_rectangle1"
+    android:scaleType="centerInside" />
+</FrameLayout>

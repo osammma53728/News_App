@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=""
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"/>
+    <item android:title=""
+        android:id="@+id/chats"
+        android:icon="@drawable/baseline_chat_24"/>
+    <item android:title=""
+        android:id="@+id/patient"
+        android:icon="@drawable/baseline_people_24"/>
+    <item android:title=""
+        android:id="@+id/add_times"
+        android:icon="@drawable/baseline_time_add_24"/>
+</menu>

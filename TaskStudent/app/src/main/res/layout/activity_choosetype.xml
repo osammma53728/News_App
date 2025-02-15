@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+ <TextView
+     android:id="@+id/Register"
+     android:layout_width="256dp"
+     android:layout_height="40dp"
+     android:layout_marginTop="20dp"
+     android:text="@string/welcome"
+     android:textColor="#757575"
+     android:textSize="35sp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     tools:ignore="MissingConstraints,TextSizeCheck" />
+
+ <ImageView
+     android:id="@+id/doctor"
+     android:layout_width="279dp"
+     android:layout_height="184dp"
+     android:importantForAccessibility="no"
+     android:src="@drawable/therapist"
+     android:layout_marginTop="40dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.416"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/Register"
+     tools:ignore="MissingConstraints" />
+
+ <Button
+     android:id="@+id/therapist"
+     android:layout_width="124dp"
+     android:layout_height="48dp"
+     android:background="@drawable/btn1"
+     android:backgroundTint="@color/button2"
+     android:text="@string/therapist"
+     android:textSize="18sp"
+     android:layout_marginTop="30dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/doctor"
+     tools:ignore="MissingConstraints,TextSizeCheck" />
+
+
+ <ImageView
+     android:id="@+id/user1"
+     android:layout_width="195dp"
+     android:layout_height="178dp"
+     android:importantForAccessibility="no"
+     android:src="@drawable/user"
+     android:layout_marginTop="30dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/therapist"
+     tools:ignore="MissingConstraints" />
+
+ <Button
+     android:id="@+id/user"
+     android:layout_width="134dp"
+     android:layout_height="48dp"
+     android:background="@drawable/btn1"
+     android:backgroundTint="@color/button2"
+     android:text="@string/user"
+     android:textSize="18sp"
+     android:layout_marginTop="30dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/user1"
+     tools:ignore="DuplicateIds,MissingConstraints,TextSizeCheck" />
+
+ <TextView
+     android:id="@+id/ContinueAs"
+     android:layout_width="110dp"
+     android:layout_height="28dp"
+     android:layout_marginTop="40dp"
+     android:text="@string/continue_as"
+     android:textColor="@color/black"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.498"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/user"
+     tools:ignore="MissingConstraints,TextSizeCheck,VisualLintBounds" />
+
+ <LinearLayout
+     android:id="@+id/social"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:importantForAccessibility="no"
+     android:orientation="horizontal"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.524"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@id/ContinueAs"
+     app:layout_constraintVertical_bias="0.116"
+     tools:ignore="VisualLintBounds">
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="32dp"
+      android:layout_height="32dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="16dp"
+      android:importantForAccessibility="no"
+      android:src="@drawable/google" />
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="32dp"
+      android:layout_height="32dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="16dp"
+      android:importantForAccessibility="no"
+      android:src="@drawable/apple" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="30dp"
+      android:layout_height="match_parent"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:importantForAccessibility="no"
+      android:src="@drawable/fb" />
+ </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
